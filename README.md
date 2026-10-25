@@ -4,7 +4,7 @@ This is a simple Flutter project built during the GDG LASU Beginner Mobile Devel
 
 The app allows users to increment, decrement, and reset a counter, with a conditional message displayed when the counter reaches 10.
 
-## Concepts Covered
+## Concepts Covered.
 
 - **State Management:** Using `StatefulWidget` and `setState()` to update the counter.
 - **Conditional UI:** Displaying messages based on the counter value.
