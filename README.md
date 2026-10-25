@@ -1,8 +1,18 @@
 # GDG LASU Flutter Counter Demo
 
-This is a simple Flutter project we built during the GDG LASU Beginner Mobile Development Bootcamp to practise user interaction and state management.
+This is a simple Flutter project built during the GDG LASU Beginner Mobile Development Bootcamp to practise user interaction, state management, reusable widgets, and responsive UI design.
 
-The app starts with a counter value of `0`. Pressing **Increment** increases the value by one. The counter is stored in memory and resets to `0` when the app restarts.
+The app allows users to increment, decrement, and reset a counter, with a conditional message displayed when the counter reaches 10.
+
+## Concepts Covered
+
+- **State Management:** Using `StatefulWidget` and `setState()` to update the counter.
+- **Conditional UI:** Displaying messages based on the counter value.
+- **Reusable Widgets:** Creating a custom `CustomButton` widget to reuse button layouts and styling.
+- **Themes:** Using `ThemeData` and consistent styling to improve the app's appearance.
+- **Responsive Layouts:** Using widgets such as `Row`, `Expanded`, `Flexible`, and `ConstrainedBox` to manage available space and prevent overflow.
+- **Assets:** Adding and displaying SVG icons in the interface.
+- **Flutter Packages:** Using [`flutter_svg`](https://pub.dev/packages/flutter_svg) to render SVG assets and exploring packages through [`pub.dev`](https://pub.dev/).
 
 ## Getting Started
 
@@ -14,109 +24,28 @@ The app starts with a counter value of `0`. Pressing **Increment** increases the
 
 ### 2. Clone Your Fork
 
-Open your fork on GitHub, click **Code**, select HTTPS, and copy the URL or SSH if you have SSH tied to your local machine.
-
-Run the following commands in your terminal, replacing the URL with your own fork's URL:
-
 ```bash
 git clone https://github.com/YOUR_USERNAME/counter_demo.git
 cd counter_demo
 ```
 
-### 3. Run the App
+Replace `YOUR_USERNAME` with your GitHub username.
 
-Open the project in VS Code and run:
+### 3. Install Dependencies and Run
 
 ```bash
 flutter pub get
 flutter run
 ```
 
-## Practical Assignments
-
-Complete the following tasks using the code from our class. 
-
-### Assignment 1: Add Counter Controls
-
-**Required tasks:**
-
-- **Decrement:** Add a button that decreases the counter by one.
-- **Reset:** Add a button that returns the counter to `0`.
-- **Prevent negative values:** Ensure the counter never goes below `0`.
-
-Use `onPressed`, variables, conditions, and `setState()` to implement these behaviours.
-
-### Assignment 2: Conditional UI
-
-Implement at least **one** of the following:
-
-**Option A:** Display `Congratulations! You reached 10.` when the counter reaches `10` or higher. Hide the message when it drops below `10`.
-
-**Option B:** Display `Counter is empty` when the counter is `0`. Otherwise, display the current value, such as `Counter: 3`.
-
-### Optional Challenge: Customise the UI
-
-- Change the AppBar title.
-- Adjust button labels, colours, text sizes, or spacing.
-- Improve the layout of the counter and buttons.
-
-Keep your changes within the Flutter concepts covered in class.
-
-## Save and Push Your Work
-
-After completing the assignments, open your terminal inside the project folder.
-
-Check your changes:
-
-```bash
-git status
-```
-
-Stage your changes:
-
-```bash
-git add .
-```
-
-Commit with a meaningful message:
-
-```bash
-git commit -m "Complete counter practical assignments"
-```
-
-Push your changes to your fork:
-
-```bash
-git push
-```
-
-If Git says your branch has no upstream, follow the command it suggests.
-
-Finally, open your fork on GitHub and confirm that your changes are there.
-
-## Submission
-
-Submit the following:
-
-1. **Your forked GitHub repository link.**
-2. A screenshot of your completed app.
-3. A short explanation of how you used `setState()` to update the counter.
-
-Make sure your repository is public so it can be accessed, unless instructed otherwise.
-
-### Before You Submit, ENSURE YOU FOLLOW THESE CHECKLISTS
-
-- [ ] Added Decrement and Reset buttons.
-- [ ] Prevented negative counter values.
-- [ ] Implemented at least one conditional UI option.
-- [ ] Tested the app.
-- [ ] Committed and pushed changes to my fork.
-- [ ] Confirmed my GitHub repository link is correct.
-
 ## Resources
 
-- [Flutter documentation](https://docs.flutter.dev/)
-- [Flutter widget catalog](https://docs.flutter.dev/ui/widgets)
-- [Dart language tour](https://dart.dev/language)
-- [GitHub: Fork a repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
-- [GitHub: Clone a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+- [Flutter Documentation](https://docs.flutter.dev/)
+- [Flutter Layouts](https://docs.flutter.dev/ui/layout)
+- [Dart Language Tour](https://dart.dev/language)
+- [pub.dev](https://pub.dev/)
+- [flutter_svg Package](https://pub.dev/packages/flutter_svg)
+
+---
+
+**Built for learning at the GDG LASU Beginner Mobile Development Bootcamp.**
